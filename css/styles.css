@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -135,4 +136,37 @@ main .container .row .col .product-info .product-info-inner .product-price {
 main .container .row .col .product-info .product-info-inner .seller {
   font-size: 12px;
   font-weight: 300;
+}
+
+/*MENÚ*/
+.menu {
+  max-width: 100%;
+}
+.menu ul {
+  background-color: #eaeaea;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.menu ul li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 12%;
+}
+.menu ul li:last-child {
+  margin-right: 0;
+}
+.menu ul li i {
+  font-size: 20px;
+  color: #464646;
+}
+.menu ul li .menu-option {
+  font-size: 10px;
+  font-weight: 400;
 }
