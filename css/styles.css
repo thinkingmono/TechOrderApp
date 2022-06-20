@@ -156,6 +156,31 @@ main .container .row .col .product .product-info .product-info-inner .seller {
   font-size: 12px;
   font-weight: 300;
 }
+main .container .more-button {
+  margin-top: 30px;
+  margin-bottom: 63px;
+  display: block;
+  text-align: center;
+}
+main .container .more-button .more-button-link {
+  text-decoration: none;
+}
+main .container .more-button .more-button-link span {
+  width: 100%;
+  line-height: 2em;
+  color: #383738;
+  font-weight: 600;
+  color: #102c54;
+}
+main .container .more-button .more-button-link i {
+  width: 100%;
+  font-size: 20px;
+  color: #102c54;
+}
+main .container .more-button .more-button-link:hover {
+  color: #495057;
+  text-decoration: underline;
+}
 
 /*MENÚ*/
 .menu {
