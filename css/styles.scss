@@ -77,6 +77,20 @@ main {
     padding: 30px 20px;
 
     .container {
+        .banner{
+            width: 100%;
+            &.top{
+                background-image: url('../img/');
+            }
+            &.middle{
+                background-image: url('../img/');
+            }
+            &.bottom{
+                background-image: url('../img/');
+            }
+            background-size: cover;
+            background-position: center;
+        }
         .row {
             display: flex;
             flex-direction: row;

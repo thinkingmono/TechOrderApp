@@ -81,6 +81,20 @@ header .container .row .col.icon i {
 main {
   padding: 30px 20px;
 }
+main .container .banner {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+main .container .banner.top {
+  background-image: url("../img/");
+}
+main .container .banner.middle {
+  background-image: url("../img/");
+}
+main .container .banner.bottom {
+  background-image: url("../img/");
+}
 main .container .row {
   display: -webkit-box;
   display: -ms-flexbox;
