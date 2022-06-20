@@ -14,3 +14,60 @@ body {
 img {
     max-width: 100%;
 }
+
+/*HEADER*/
+header {
+    background-color: #102c54;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .container {
+        .row {
+            display: flex;
+            flex-direction: row;
+
+            .col {
+                &.avatar-container {
+                    width: 10%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 50%;
+                    }
+                }
+
+                &.search-container {
+                    width: 80%;
+                    padding: 0 15px;
+
+                    input {
+                        width: 100%;
+                        line-height: 2em;
+                        border-radius: 5px;
+                        padding: 0 5px;
+                        font-family: $fuente;
+                    }
+                }
+
+                &.icon {
+                    width: 10%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    i {
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
