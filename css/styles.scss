@@ -1,0 +1,16 @@
+$titulos: #383738;
+$texto: #495057;
+$fuente: 'Poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $fuente;
+}
+
+img {
+    max-width: 100%;
+}
