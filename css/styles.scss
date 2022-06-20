@@ -71,3 +71,68 @@ header {
         }
     }
 }
+
+/*MAIN*/
+main {
+    padding: 30px 20px;
+
+    .container {
+        .row {
+            display: flex;
+            flex-direction: row;
+
+            .col {
+                width: 50%;
+                margin-right: 10px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .product-info {
+                    background-color: #e8e8e8;
+
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    .product-info-inner {
+                        padding: 10px;
+
+                        .tags {
+                            display: flex;
+                            flex-direction: row;
+                            padding: 5px 0;
+
+                            span {
+                                font-size: 10px;
+                                margin-right: 6px;
+                                background-color: purple;
+                                color: #fafafa;
+                                padding: 4px;
+                                border: 1px solid #fafafa;
+                                border-radius: 5px;
+
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+
+                        }
+
+                        .product-price {
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-bottom: 5px;
+                        }
+
+                        .seller {
+                            font-size: 12px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

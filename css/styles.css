@@ -75,3 +75,64 @@ header .container .row .col.icon i {
   color: #fff;
   font-size: 20px;
 }
+
+/*MAIN*/
+main {
+  padding: 30px 20px;
+}
+main .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .container .row .col {
+  width: 50%;
+  margin-right: 10px;
+}
+main .container .row .col:last-child {
+  margin-right: 0;
+}
+main .container .row .col .product-info {
+  background-color: #e8e8e8;
+}
+main .container .row .col .product-info h3 {
+  font-size: 15px;
+}
+main .container .row .col .product-info .product-info-inner {
+  padding: 10px;
+}
+main .container .row .col .product-info .product-info-inner .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px 0;
+}
+main .container .row .col .product-info .product-info-inner .tags span {
+  font-size: 10px;
+  margin-right: 6px;
+  background-color: purple;
+  color: #fafafa;
+  padding: 4px;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+}
+main .container .row .col .product-info .product-info-inner .tags span:last-child {
+  margin-right: 0;
+}
+main .container .row .col .product-info .product-info-inner .product-price {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+main .container .row .col .product-info .product-info-inner .seller {
+  font-size: 12px;
+  font-weight: 300;
+}
