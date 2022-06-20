@@ -106,6 +106,7 @@ main .container .row .col .product {
 main .container .row .col .product .product-image {
   background-color: #e8e8e8;
   padding: 2px;
+  cursor: pointer;
 }
 main .container .row .col .product .product-image img {
   width: 100%;
