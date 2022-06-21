@@ -77,20 +77,47 @@ main {
     padding: 30px 20px;
 
     .container {
-        .banner{
+        .banner {
             width: 100%;
-            &.top{
-                background-image: url('../img/');
+            min-height: 281px;
+
+            &.top {
+                background-image: url('../img/Cyber-Monday-Black-Banner.jpg');
             }
-            &.middle{
-                background-image: url('../img/');
+
+            &.middle {
+                background-image: url('../img/Cryber-Monday-People-Yellow-Pink.jpg');
             }
-            &.bottom{
-                background-image: url('../img/');
+
+            &.bottom {
+                background-image: url('../img/Cryber-Monday-Purple-Blue-Tablet.jpg');
             }
+
             background-size: cover;
             background-position: center;
         }
+
+        .section-title {
+            margin: 10px 0;
+            text-align: center;
+            position: relative;
+            padding: 15px 0 30px;
+            color: $texto;
+
+            &::after {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 50px;
+                height: 3px;
+                background: #102c54;
+                bottom: 15px;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 4px;
+            }
+        }
+
         .row {
             display: flex;
             flex-direction: row;
@@ -107,6 +134,7 @@ main {
                 .product {
                     border-radius: 10px;
                     box-shadow: 4px 3px 4px #989899;
+
                     .product-image {
                         background-color: #e8e8e8;
                         padding: 2px;
@@ -167,28 +195,44 @@ main {
                 }
             }
         }
-        .more-button{
+
+        .more-button {
             margin-top: 30px;
             margin-bottom: 63px;
             display: block;
             text-align: center;
-            .more-button-link{
+
+            .more-button-link {
                 text-decoration: none;
-                span{
-                    width: 100%;
+                background-color: none;
+                padding: 10px 20px;
+                border: 2px solid #102c54;
+                border-radius: 5px;
+
+                span {
+                    // width: 100%;
                     line-height: 2em;
                     color: $titulos;
                     font-weight: 600;
                     color: #102c54;
+
+                    &:hover {
+                        color: #fafafa;
+                    }
                 }
-                i{
-                    width: 100%;
-                    font-size: 20px;
+
+                i {
+                    // width: 100%;
+                    font-size: 15px;
                     color: #102c54;
+                    margin-left: 10px;
                 }
+
                 &:hover{
-                    color: $texto;
-                    text-decoration: underline;
+                    background-color: #102c54;
+                }
+                &:hover span, &:hover i{
+                    color: #fafafa;
                 }
             }
         }
@@ -215,6 +259,7 @@ main {
             display: inline-block;
             text-align: center;
             margin-right: 12%;
+            cursor: pointer;
 
             // margin: auto 12% 0 0;
             &:last-child {
